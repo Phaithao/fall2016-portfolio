@@ -1,6 +1,6 @@
 
         body {
-            background: #fff;
+            background: #AA8F39;
             color: #666;
             font-size: 12px;
             font-family: trebuchet ms;
@@ -41,7 +41,7 @@
         #main-content {
             clear: both;
             margin: 150px auto;
-            width: 1024px;
+            width: 80%;
         }
         
         #sidebar-left {
@@ -74,7 +74,7 @@
         #footer {
             clear: both;
             margin: 20px auto;
-            width: 1024px;
+            width: 80%;
             padding: 7px;
         }
         
