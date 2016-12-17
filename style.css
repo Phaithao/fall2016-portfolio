@@ -177,15 +177,13 @@ a {
     #rand_banner {
         display: none;
     }
-    .sidebox {
+    .side-box {
         width: 100%;
     }
-
-
-#main-content {
-    width: 100%;
-    margin: 0 auto;
-}
-
-
+    #main-content {
+        margin: 0 auto;
+    }
+    #main {
+        width: 100%;
+    }
 }
