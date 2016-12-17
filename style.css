@@ -53,10 +53,9 @@ h1 {
 }
 
 .side-box {
-            padding-top: 0;
-            min-height: 150px;
-        }
-        
+    padding-top: 0;
+    min-height: 150px;
+}
 
 .side-box,
 #bottom-content {
@@ -113,6 +112,7 @@ figure {
     float: left;
     width: 33%;
 }
+
 #footer {
     clear: both;
     margin: 20px auto;
@@ -123,7 +123,8 @@ figure {
 
 .fa-pied-piper-alt {
     color: #337ab7;
-    font-size: 20px;}
+    font-size: 20px;
+}
 
 #rand_banner {
     position: fixed;
@@ -136,7 +137,6 @@ figure {
     width: 100px;
     height: 100px;
 }
-
 
 a {
     color: #337ab7;
@@ -165,17 +165,27 @@ a {
     #main-content {
         margin: 0 auto;
     }
-    #bottom-content figure img
-    {display: none;}
+    #bottom-content figure img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    #rand_banner {display: none;}
+    .side-box h1 {
+        overflow: hidden;
     }
-    .tablet-full {
-        width: 100%;
+    #rand_banner {
+        display: none;
     }
-    #main-content {
-        margin: 0 auto;
-    }
+}
+
+.tablet-full {
+    width: 100%;
+}
+
+#main-content {
+    margin: 0 auto;
+}
+
+
 }
