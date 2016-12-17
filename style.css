@@ -177,7 +177,9 @@ a {
     #rand_banner {
         display: none;
     }
-}
+    .sidebox {
+        width: 100%;
+    }
 
 .tablet-full {
     width: 100%;
