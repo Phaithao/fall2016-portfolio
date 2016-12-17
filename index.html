@@ -4,65 +4,137 @@
 <head>
     <meta charset="utf-8">
     <title>Phai Thao's Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <div id="wrapper">
-        <div id="header">
-            <div class="nav_bar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#Intro">Introduction</a></li>
-                    <li><a href="#Tech">Technical Skills</a></li>
-                    <li><a href="#Edu">Footer</a></li>
-                </ul>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Phai Thao</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#Intro">Introduction</a></li>
+                        <li><a href="#Tech">Technical Skills</a></li>
+                        <li><a href="#Edu">Education</a></li>
+                        <li><a href="#bottom-content">Projects</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </nav>
+    <div id="wrapper">
+
         <div id="main-content">
-            <div id="sidebar-left">
-                <div class="side-box">
-                    <h3> Phai Thao</h3>
-                    <p>Personal Portfolio</p>
+            <div id="main">
+                <div id="Name" class="side-box">
+                    <h1> Phai Thao</h1>
+                    <ol>
+                        <li>Born on August 31st, 1997.</li>
+                        <li>Joined the United States Army on October 5th, 2015.</li>
+                        <li>Started college on August 22nd, 2016.</li>
+                    </ol>
                 </div>
+
                 <div id="Intro" class="side-box">
-                    <h3>Introduction</h3>
-                    <p>Hello, my name is Phai Thao. I just recently enrolled in college and planned to learn a lot about computers and different programs. I want a job where I can mess around with computer and learn from errors that I'll come across.</p>
+                    <h1>Introduction</h1>
+                    <p>Hello, my name is Phai Thao. I had just recently enrolled in college and planned to learn a lot about computers and different programs. I want a job where I can mess around with computer and learn from errors that I'll come across.</p>
                 </div>
+
                 <div id="Tech" class="side-box">
-                    <h3>Technical Score</h3>
-                    <p>Can type at a decent fast speed, knows basic of HTML5/CSS and a bit of boostrap.</p>
+                    <h1>Technical Skills / Education</h1>
+                    <p>Technical Skills</p>
+                    <ol>
+                        <li>Can type at a decent fast speed</li>
+                        <li>Knows the basic of HTML5/CSS</li>
+                        <li>Knows a bit of bootstrap>
+                    </ol>
+
                 </div>
-                    <div id="Edu" class="side-box">
-                    <h3>Education</h3>
-                    <p>High School : Prairie Seeds Academy.</p> <br>
-                    <p>College: Hennepin Technical College</p>
+
+                <div id="Edu" class="side-box">
+                    <h1>Education</h1>
+                    <p>Education</p>
+                    <p>Elementary School : Jordan Park.</p>
+                    <p>Middle School : Prairie Seeds Academy.</p>
+                    <p>High School : Prairie Seeds Academy.</p>
+                    <p>College: Hennepin Technical College.</p>
                     <p>Degree: .Net Programmer, but now I've changed it to Desktop Support.</p>
                 </div>
+
+
+                <div id="bottom-content" class="side-box">
+                    <h1>Projects</h1>
+                    <p>Meanwhile in HTML Class, I'd got the chance to do work on different projects such as a fan page, Pacific Trails Case Study, Ms. B's Veggies and others.</p>
+                    <div>
+                        <figure>
+                            <a href="https://phaithao.github.io/fan-page/"><img src="../fall2016-portfolio/fan-page.png" width="250" height="250" alt="Picture of Fan Page"></a>
+                            <a href="https://github.com/htc-ccis1301/fan-page/">
+                                <figcaption>Fan Page Project</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://phaithao.github.io/cs-pacific-trails/"><img src="../fall2016-portfolio/Pacific-Trails.png" width="250" height="250" alt="Picture of Pacific-Trails"></a>
+                            <a href="https://github.com/htc-ccis1301/cs-pacific-trails/">
+                                <figcaption>CS-Pacific Trails Project</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="https://phaithao.github.io/veggies-bootstrap/"><img src="../fall2016-portfolio/Ms.B's.png" width="250" height="250" alt="Picture of Veggies-Bootstrap/"></a>
+                            <a href="https://github.com/htc-ccis1301/veggies-bootstrap/">
+                                <figcaption>Ms. B's Veggies Project</figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
             </div>
-            <div id="sidebar-right">
-                <img src="../fall2016-portfolio/Profile2.jpg" />
-            </div>
+
         </div>
-        <div id="bottom-content">
-            <div class="left w25 tablet-full">Project</div> <br>
-            <p>Meanwhile in HTML Class, I've went through different projects such as a fan page, Pacific Trails Case Study, Ms. B's Veggies and others.</p>
-            <div class="right w75">
-                <img src="../fall2016-portfolio/fan-page.png" width="250" height = "250"/>
-                                <img src="../fall2016-portfolio/Pacific-Trails.png" width="250" height = "250" />
-                                <img src="../fall2016-portfolio/Ms.B's.png" width="250" height = "250" />
-            </div>
-        </div>
-        <div id="footer">
-            <p>&copy; Copyright Phai Thao. All rights reserved.</p>
-            <a href="https://github.com/Phaithao">My Github's Profile</a>
-            <a href="http://paletton.com/#uid=11d0u0kllllaFw0g0qFqFg0w0aF">Paletton Color Scheme</a>
-            
-            
-        </div>
-        <div id="rand_banner">
-            <img src="../fall2016-portfolio/Profile.jpg">
-        </div>
+
+    <div id="sidebar-right">
+        <img src="../fall2016-portfolio/Profile2.jpg" />
     </div>
+
+    <div id="footer">
+        <p>&copy;2016 Copyright Phai Thao. All rights reserved.</p>
+        <i class="fa fa-pied-piper-alt"><a href="https://github.com/Phaithao">My Github's Profile</a></i>
+        <a href="http://paletton.com/#uid=11d0u0kllllaFw0g0qFqFg0w0aF">Paletton Color Scheme</a>
+
+
+    </div>
+    <div id="rand_banner">
+        <img src="../fall2016-portfolio/Profile.jpg">
+    </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
