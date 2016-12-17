@@ -171,6 +171,10 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+    h3 {
+        font-size: 15px;
+    }
+    
     .side-box h1 {
         overflow: hidden;
     }
